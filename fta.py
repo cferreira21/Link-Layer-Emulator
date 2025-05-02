@@ -1,5 +1,6 @@
 import sys
 import socket
+from DCCNET_Emu import DCCNET, dccnet_connect
 
 def server_mode(port, input_file, output_file):
     with open(input_file, 'rb') as f_in, open(output_file, 'wb') as f_out:

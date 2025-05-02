@@ -1,5 +1,6 @@
 import hashlib
 import sys
+from DCCNET_Emu import DCCNET, dccnet_connect
 
 def main():
     ip_port = sys.argv[1].split(':')
